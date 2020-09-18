@@ -1,0 +1,82 @@
+html {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    margin: 20px;  
+}
+
+/* body {
+margin: 10px;
+} */
+
+li {
+    color: lightgray;
+    
+}
+
+a:link {
+    color:lightgray;
+    text-decoration: none;
+  }
+
+#main {
+    display: flex;
+  }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+body > header > nav > img {
+    width: 150px;
+    
+}
+
+.phone_nr {
+    color: lightgray;
+}
+
+.btn_register {
+    height: 4em;
+    color: white;
+    background-color: dodgerblue;
+    border-style: none;
+    border-radius: 10%;
+    padding: 1em;
+    font-weight: inherit;
+    text-transform: uppercase;
+    
+}
+
+.btn_read {
+  
+    height: 3em;
+    color: white;
+    background-color: dodgerblue;
+    border-style: none;
+    border-radius: 10%;
+    padding: 1em;
+    width: 9em;
+    font-weight: inherit;
+    
+}
+
+article {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.date {
+    color: dodgerblue;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+aside {
+    border: solid lightgrey 2px;
+    padding: 2em;
+
+}
